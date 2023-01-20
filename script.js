@@ -1,4 +1,4 @@
-let wr, serverID = '820745488231301210';
+let wr, serverID = 'SERVERIDHERE';
 window.webpackChunkdiscord_app.push([[ Math.random() ], {}, (req) => { wr = req; }]);
 let stickerLib = Object.values(wr.c).find(x => x?.exports?.Z?.getStickersByGuildId), el = Object.values(wr.c).find(x => x?.exports?.Z?.getGuildEmoji), so = stickerLib.exports.Z.getStickersByGuildId(serverID), eo = el.exports.Z.getGuildEmoji(serverID), s = [], e = []
 so.forEach((x) => { s.push(`${x.name} - https://media.discordapp.net/stickers/${x.id}.png`)})
